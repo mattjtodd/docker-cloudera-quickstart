@@ -90,3 +90,9 @@ for ten minutes, add the following to /etc/hadoop/conf/yarn-site.xml :
 
 Then you can find the logs, e.g.: `sudo -E ./yarnlogs.bash Matcher`
 #Please report any issue or feedback if possible.
+
+# Running
+
+To run with the Hue port exposed:
+
+`docker run -i -t -p 8888:8888 caioquirino/docker-cloudera-quickstart`
